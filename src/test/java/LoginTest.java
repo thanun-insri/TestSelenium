@@ -36,7 +36,6 @@ public class LoginTest {
     @Test
     public void userLoginUnsuccessfully_lockedUser() {
         LoginPage loginPage = new LoginPage(driver, testData);
-        ProductHomePage productHomePage = new ProductHomePage(driver, testData);
         loginPage.enterUsername(testData.getAsJsonObject("user_locked").get("username").getAsString());
         loginPage.enterPassword(testData.getAsJsonObject("user_locked").get("password").getAsString());
         loginPage.clickLoginButton();
