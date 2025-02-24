@@ -1,0 +1,17 @@
+{
+  "addToCartButton_sauce-labs-backpack": "//button[@id='add-to-cart-sauce-labs-backpack']",
+  "addToCartButton_sauce-labs-bolt-t-shirt": "//button[@id='add-to-cart-sauce-labs-bolt-t-shirt']",
+  "addToCartButton_sauce-labs-onesie": "//button[@id='add-to-cart-sauce-labs-onesie']",
+  "addToCartButton_sauce-labs-bike-light": "//button[@id='add-to-cart-sauce-labs-bike-light']",
+  "addToCartButton_sauce-labs-fleece-jacket": "//button[@id='add-to-cart-sauce-labs-fleece-jacket']",
+  "addToCartButton_test-allthethings": "//button[contains(@id,'add-to-cart-test.allthethings')]",
+  "removeButton_sauce-labs-backpack": "//button[@id='remove-sauce-labs-backpack']",
+  "removeButton_sauce-labs-bolt-t-shirt": "//button[@id='remove-sauce-labs-bolt-t-shirt']",
+  "removeButton_sauce-labs-onesie": "//button[@id='remove-sauce-labs-onesie']",
+  "removeButton_sauce-labs-bike-light": "//button[@id='remove-sauce-labs-bike-light']",
+  "removeButton_sauce-labs-fleece-jacket": "//button[@id='remove-sauce-labs-fleece-jacket']",
+  "removeButton_test-allthethings": "//button[contains(@id,'remove-test.allthethings')]",
+  "amountOnShoppingCartIcon": "//div[@id='shopping_cart_container']//span[@class='shopping_cart_badge']",
+  "shoppingCartIcon": "//div[@id='shopping_cart_container']",
+  "addedProductNameInCartPage": "//div[@class='inventory_item_name' and contains(text(),'$productName')]"
+}

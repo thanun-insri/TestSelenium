@@ -1,0 +1,6 @@
+{
+  "usernameTextBox": "//input[@id='user-name']",
+  "passwordTextBox": "//input[@id='password']",
+  "loginButton": "//input[@id='login-button']",
+  "errorMessage": "//h3[@data-test='error' and contains(text(),'Sorry, this user has been locked out.')]//button[@class='error-button']"
+}
