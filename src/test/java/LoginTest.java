@@ -84,7 +84,7 @@ public class LoginTest {
 
     @AfterMethod
     public void testTearDown() {
-        if (driver != null) {
+        if(driver != null) {
             driver.closeBrowser();
         }
     }

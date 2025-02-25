@@ -27,7 +27,7 @@ public class Common {
     }
 
     public void waitUntilElementVisible(String elementPath) {
-        WebDriverWait wait = new WebDriverWait(driver.getDriverForBrowser("chrome"), Duration.ofSeconds(10));
+        WebDriverWait wait = new WebDriverWait(driver.getDriverForBrowser(), Duration.ofSeconds(10));
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(elementPath)));
     }
 

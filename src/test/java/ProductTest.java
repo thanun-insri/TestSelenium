@@ -37,7 +37,7 @@ public class ProductTest {
 
     @AfterMethod
     public void testTearDown() {
-        if (driver != null) {
+        if(driver != null) {
             driver.closeBrowser();
         }
     }

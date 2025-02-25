@@ -19,7 +19,7 @@ public class Driver {
         // else if (Firefox, Edge, ...)
     }
 
-    public WebDriver getDriverForBrowser(String browserSelected) {
+    public WebDriver getDriverForBrowser() {
         return driver;
     }
 
